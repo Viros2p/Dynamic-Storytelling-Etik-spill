@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: fcd7f3c06a8ccd24aa22bfa67fcd26c1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7139699219438343575
+    second: Karakter-removebg-preview_0
+  - first:
+      213: -5127254024953502800
+    second: Karakter-removebg-preview_1
+  - first:
+      213: -7082015235840398650
+    second: Karakter-removebg-preview_2
+  - first:
+      213: -4140985474017117961
+    second: Karakter-removebg-preview_3
+  - first:
+      213: 3617922771893529572
+    second: Karakter-removebg-preview_4
+  - first:
+      213: 5641795524279145495
+    second: Karakter-removebg-preview_5
+  - first:
+      213: -8711960536903502577
+    second: Karakter-removebg-preview_6
+  - first:
+      213: 8947573301715438012
+    second: Karakter-removebg-preview_7
+  - first:
+      213: 4026677031874055027
+    second: Karakter-removebg-preview_8
+  - first:
+      213: -1018112709052754214
+    second: Karakter-removebg-preview_9
+  - first:
+      213: -4594270518202746766
+    second: Karakter-removebg-preview_10
+  - first:
+      213: -6903980504024566652
+    second: Karakter-removebg-preview_11
+  - first:
+      213: -2078776330195316284
+    second: Karakter-removebg-preview_12
+  - first:
+      213: -1057743025070041962
+    second: Karakter-removebg-preview_13
+  - first:
+      213: 4925825606643722364
+    second: Karakter-removebg-preview_14
+  - first:
+      213: -7336096500751001266
+    second: Karakter-removebg-preview_15
+  - first:
+      213: 4457212966574122712
+    second: Karakter-removebg-preview_16
+  - first:
+      213: 2681889070885585165
+    second: Karakter-removebg-preview_17
+  - first:
+      213: -5129980352967515023
+    second: Karakter-removebg-preview_18
+  - first:
+      213: -3257072037787962152
+    second: Karakter-removebg-preview_19
+  - first:
+      213: 5814236994338823168
+    second: Karakter-removebg-preview_20
+  - first:
+      213: 8823662829567278891
+    second: Karakter-removebg-preview_21
+  - first:
+      213: 8978013956076325272
+    second: Karakter-removebg-preview_22
+  - first:
+      213: -7384208231558532415
+    second: Karakter-removebg-preview_23
+  - first:
+      213: -7473377811995686989
+    second: Karakter-removebg-preview_24
+  - first:
+      213: 7540138724391086034
+    second: Karakter-removebg-preview_25
+  - first:
+      213: 7336826447096023221
+    second: Karakter-removebg-preview_26
+  - first:
+      213: -6270130860205318813
+    second: Karakter-removebg-preview_27
+  - first:
+      213: -6070873385218220494
+    second: Karakter-removebg-preview_28
+  - first:
+      213: 5034317747372279014
+    second: Karakter-removebg-preview_29
+  - first:
+      213: 429385249965756097
+    second: Karakter-removebg-preview_30
+  - first:
+      213: -4031754312005607370
+    second: Karakter-removebg-preview_31
+  - first:
+      213: -4416315219753589061
+    second: Karakter-removebg-preview_32
+  - first:
+      213: -3107484486097742359
+    second: Karakter-removebg-preview_33
+  - first:
+      213: -4078217131530022659
+    second: Karakter-removebg-preview_34
+  - first:
+      213: 165570169633580247
+    second: Karakter-removebg-preview_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 244
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79591c1cc9e451360800000000000000
+      internalID: 7139699219438343575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 244
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3647131a558d8b0800000000000000
+      internalID: -5127254024953502800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 244
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca24d54aa0a7bd90800000000000000
+      internalID: -7082015235840398650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 244
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f83829b6a34886c0800000000000000
+      internalID: -4140985474017117961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 244
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eba28ba791753230800000000000000
+      internalID: 3617922771893529572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 244
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7141c08432fab4e40800000000000000
+      internalID: 5641795524279145495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 196
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0535a4bc06e81780800000000000000
+      internalID: -8711960536903502577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 196
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb9848af28a2c2c70800000000000000
+      internalID: 8947573301715438012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 196
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37bc31e1d61a1e730800000000000000
+      internalID: 4026677031874055027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 196
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad69993a2efeed1f0800000000000000
+      internalID: -1018112709052754214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 196
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278b9702e4fdd30c0800000000000000
+      internalID: -4594270518202746766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 196
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484b4697f422030a0800000000000000
+      internalID: -6903980504024566652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 148
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c1d73701f3b623e0800000000000000
+      internalID: -2078776330195316284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 148
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6949d07a2542251f0800000000000000
+      internalID: -1057743025070041962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 148
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78a5858a4c0c5440800000000000000
+      internalID: 4925825606643722364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 148
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4910c2d913f03a90800000000000000
+      internalID: -7336096500751001266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 148
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d66ae8e3933bdd30800000000000000
+      internalID: 4457212966574122712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 148
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01432596ebf73520800000000000000
+      internalID: 2681889070885585165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 100
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17463ac7c06aec8b0800000000000000
+      internalID: -5129980352967515023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 100
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d47ac30d3e8cc2d0800000000000000
+      internalID: -3257072037787962152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 100
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c108fbdb150b050800000000000000
+      internalID: 5814236994338823168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 100
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ffc2ef792f37a70800000000000000
+      internalID: 8823662829567278891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 100
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899cd602020589c70800000000000000
+      internalID: 8978013956076325272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 100
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c230729cb5068990800000000000000
+      internalID: -7384208231558532415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 52
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b706b3c97a394890800000000000000
+      internalID: -7473377811995686989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 52
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d76f707834f3a860800000000000000
+      internalID: 7540138724391086034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 52
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b889dd08c4a1d560800000000000000
+      internalID: 7336826447096023221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 52
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d5f3604350cf8a0800000000000000
+      internalID: -6270130860205318813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 52
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ed1bd22dcefbba0800000000000000
+      internalID: -6070873385218220494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 52
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4c19a715d7dd540800000000000000
+      internalID: 5034317747372279014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 4
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce40002c9b75f500800000000000000
+      internalID: 429385249965756097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 4
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630a14b70d45c08c0800000000000000
+      internalID: -4031754312005607370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 4
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb6af6ec4b816b2c0800000000000000
+      internalID: -4416315219753589061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 4
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e55b15f25fffd4d0800000000000000
+      internalID: -3107484486097742359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 4
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df09d3e40234767c0800000000000000
+      internalID: -4078217131530022659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karakter-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 4
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4296a21393c4200800000000000000
+      internalID: 165570169633580247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 66f8c4b14aa871b428d68add3d702f2c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Karakter-removebg-preview_0: 7139699219438343575
+      Karakter-removebg-preview_1: -5127254024953502800
+      Karakter-removebg-preview_10: -4594270518202746766
+      Karakter-removebg-preview_11: -6903980504024566652
+      Karakter-removebg-preview_12: -2078776330195316284
+      Karakter-removebg-preview_13: -1057743025070041962
+      Karakter-removebg-preview_14: 4925825606643722364
+      Karakter-removebg-preview_15: -7336096500751001266
+      Karakter-removebg-preview_16: 4457212966574122712
+      Karakter-removebg-preview_17: 2681889070885585165
+      Karakter-removebg-preview_18: -5129980352967515023
+      Karakter-removebg-preview_19: -3257072037787962152
+      Karakter-removebg-preview_2: -7082015235840398650
+      Karakter-removebg-preview_20: 5814236994338823168
+      Karakter-removebg-preview_21: 8823662829567278891
+      Karakter-removebg-preview_22: 8978013956076325272
+      Karakter-removebg-preview_23: -7384208231558532415
+      Karakter-removebg-preview_24: -7473377811995686989
+      Karakter-removebg-preview_25: 7540138724391086034
+      Karakter-removebg-preview_26: 7336826447096023221
+      Karakter-removebg-preview_27: -6270130860205318813
+      Karakter-removebg-preview_28: -6070873385218220494
+      Karakter-removebg-preview_29: 5034317747372279014
+      Karakter-removebg-preview_3: -4140985474017117961
+      Karakter-removebg-preview_30: 429385249965756097
+      Karakter-removebg-preview_31: -4031754312005607370
+      Karakter-removebg-preview_32: -4416315219753589061
+      Karakter-removebg-preview_33: -3107484486097742359
+      Karakter-removebg-preview_34: -4078217131530022659
+      Karakter-removebg-preview_35: 165570169633580247
+      Karakter-removebg-preview_4: 3617922771893529572
+      Karakter-removebg-preview_5: 5641795524279145495
+      Karakter-removebg-preview_6: -8711960536903502577
+      Karakter-removebg-preview_7: 8947573301715438012
+      Karakter-removebg-preview_8: 4026677031874055027
+      Karakter-removebg-preview_9: -1018112709052754214
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
