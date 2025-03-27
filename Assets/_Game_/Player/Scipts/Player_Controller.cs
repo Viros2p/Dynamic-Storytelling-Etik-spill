@@ -22,6 +22,13 @@ public class Player_Controller : MonoBehaviour
     #region Internal Data
     private Vector2 _moveDir = Vector2.zero;
     private Directions _facingDirection = Directions.RIGHT;
+
+    //anden video til animation
+    private readonly int _animMoveRight = Animator.StringToHash("Anim_Player_Move_Right");
+    private readonly int _animIdleRight = Animator.StringToHash("Anim_Player_Move_Right"); 
+    private Animator anim; 
+
+
     #endregion
 
     #region Tick
@@ -30,6 +37,14 @@ public class Player_Controller : MonoBehaviour
         GatherInput();
         CalculateFacingDirection();
         UpdateAnimation();
+        float HorizontalInput = Input.GetAxis("Horizontal");
+            //anden video
+        _animator.SetBool("Run", _moveDir.sqrMagnitude != 0);
+    }
+    private void Awake()
+    {
+        // Anden video til animation
+        anim = GetComponent<Animator>();
     }
 
     private void FixedUpdate()
@@ -81,6 +96,18 @@ public class Player_Controller : MonoBehaviour
         else if(_facingDirection == Directions.RIGHT)
         {
             _spriteRenderer.flipX = false;            
+        }
+
+        // Anden video bruges til at skifte mellem Animationer
+        //if (_moveDir.sqrMagnitude > 0) // we're moving
+        {
+        //    _animator.CrossFade(_animMoveRight, 0);
+          //  print("Går)");
+        }
+      //  else 
+        { 
+        //    _animator.CrossFade(_animIdleRight, 0);
+          //  print("Står stille");
         }
     }
    #endregion   
