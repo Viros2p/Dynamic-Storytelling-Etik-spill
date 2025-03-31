@@ -5,9 +5,9 @@ using TMPro;
 public class NPC_Sister_Dialogue : MonoBehaviour
 {
     public NPCDialogue dialogueData;
-    public GameObject dialoguePanel;
+    public Player_controller  dialoguePanel;
     public TMP_Text dialogueText, tMP_Text;
 
     private int dialogueIndex;
-    private bool isTyping 
+    private bool isTyping; 
 }

@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: SisterDialogue
   m_EditorClassIdentifier: 
   NpcName: 
-  NpcPortraits: {fileID: 0}
+  NpcPortraits: {fileID: -1983222288076657994, guid: ffafa144deae74a468a40aad1efeab7e, type: 3}
   DialogueLines: []
+  AutoProgressLines: 
+  AutoProgressDelay: 1.5
   TypingSpeed: 0.05
   VoiceSound: {fileID: 0}
   VoicePitch: 1
-  AutoProgressLines: 
-  AutoProgressDelay: 1.5
