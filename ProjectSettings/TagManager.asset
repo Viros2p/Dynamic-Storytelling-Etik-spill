@@ -44,5 +44,8 @@ TagManager:
   - name: Character
     uniqueID: 607225679
     locked: 0
+  - name: Decorations
+    uniqueID: 3450222315
+    locked: 0
   m_RenderingLayers:
   - Default
