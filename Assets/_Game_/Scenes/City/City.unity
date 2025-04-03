@@ -245,6 +245,7 @@ GameObject:
   m_Component:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 174713582}
   - component: {fileID: 174713584}
   - component: {fileID: 174713583}
@@ -27655,6 +27656,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+=======
+>>>>>>> parent of 07e4f62 (Park er lavet færdig og togstation er lavet, men manger noget design og npc)
 =======
 >>>>>>> parent of 07e4f62 (Park er lavet færdig og togstation er lavet, men manger noget design og npc)
 =======
