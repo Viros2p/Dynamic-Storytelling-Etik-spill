@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 251bb91c955c8449aa8eb003358e4e99
+guid: 5b748ad544a5a472696db73d4c8cda07
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7612417179793699123
-    second: ME_Singles_Camping_16x16_Benched_Table_4 1_0
+      213: 3350192711662444404
+    second: ME_Singles_Campingpng_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ME_Singles_Camping_16x16_Benched_Table_4 1_0
+      name: ME_Singles_Campingpng_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3313fabb71db4a960800000000000000
-      internalID: 7612417179793699123
+      spriteID: 47f1ebb65864e7e20800000000000000
+      internalID: 3350192711662444404
       vertices: []
       indices: 
       edges: []
