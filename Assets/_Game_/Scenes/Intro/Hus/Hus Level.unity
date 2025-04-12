@@ -14291,7 +14291,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   loop: 1
-  waypointsParent: {fileID: 0}
+  waypointsParent: {fileID: 708520114}
   waitTimeAtEachWaypoint: 1.5
 --- !u!224 &999691988 stripped
 RectTransform:
@@ -15019,7 +15019,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   loop: 1
-  waypointsParent: {fileID: 0}
+  waypointsParent: {fileID: 1833928920}
   waitTimeAtEachWaypoint: 1.5
 --- !u!1 &1319576744
 GameObject:
