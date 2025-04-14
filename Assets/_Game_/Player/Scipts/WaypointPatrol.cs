@@ -42,9 +42,9 @@ public class NPCPatrol : MonoBehaviour
         float distance = Vector3.Distance(transform.position, target.position);
 
         // DEBUG
-        Debug.Log("NPC Pos: " + transform.position.ToString("F2") +
-                  " | Target Pos: " + target.position.ToString("F2") +
-                  " | Distance: " + distance.ToString("F2"));
+       // Debug.Log("NPC Pos: " + transform.position.ToString("F2") +
+         //         " | Target Pos: " + target.position.ToString("F2") +
+           //       " | Distance: " + distance.ToString("F2"));
 
         transform.position = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
 
@@ -59,7 +59,7 @@ public class NPCPatrol : MonoBehaviour
     {
         isWaiting = true;
 
-        Debug.Log("🛑 Ankommet ved: " + waypoints[currentIndex].name + " | Venter i " + waitTimeAtEachWaypoint + " sek.");
+        //Debug.Log("🛑 Ankommet ved: " + waypoints[currentIndex].name + " | Venter i " + waitTimeAtEachWaypoint + " sek.");
 
         yield return new WaitForSeconds(waitTimeAtEachWaypoint);
 
@@ -70,16 +70,16 @@ public class NPCPatrol : MonoBehaviour
             if (loop)
             {
                 currentIndex = 0; // Start forfra
-                Debug.Log("🔁 Looping tilbage til første waypoint.");
+               // Debug.Log("🔁 Looping tilbage til første waypoint.");
             }
             else
             {
-                Debug.Log("✅ Sidste waypoint nået – ingen loop.");
+               // Debug.Log("✅ Sidste waypoint nået – ingen loop.");
                 yield break;
             }
         }
 
-        Debug.Log("➡️ Næste destination: " + waypoints[currentIndex].name);
+        //Debug.Log("➡️ Næste destination: " + waypoints[currentIndex].name);
         isWaiting = false;
     }
 }
