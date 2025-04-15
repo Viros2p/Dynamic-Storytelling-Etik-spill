@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Game_/Scenes/Intro/Hus.unity
     guid: 8be14e61428f9724691f84cf178e6d29
+  - enabled: 1
+    path: Assets/_Game_/Scenes/City/City Armaan.unity
+    guid: 433916ef6a14faa42b7e22ae8e323014
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
