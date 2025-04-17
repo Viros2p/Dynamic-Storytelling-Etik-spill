@@ -15497,6 +15497,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 953854549}
+  - component: {fileID: 953854550}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: Untagged
@@ -15519,6 +15520,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &953854550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953854547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ba959a414558ab48a5803a9addd01b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &999691988 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3900108755196472087, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
@@ -21076,11 +21089,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1750194988}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57ca38e28a6559c4c8f5a524fd3c4be7, type: 3}
+  m_Script: {fileID: 11500000, guid: db1a98f35d6aba24e8ae704fc366b55d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goNextlevel: 0
-  LevelName: City Armaan
+  sceneToLoad: City Armaan
 --- !u!212 &1750194990
 SpriteRenderer:
   m_ObjectHideFlags: 0
