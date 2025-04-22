@@ -1,7 +1,7 @@
 using UnityEngine;
 using DialogueEditor;
 
-public class NPCDadCharacter : MonoBehaviour
+public class NPCSisterCharacter : MonoBehaviour
 {
     public NPCConversation myConversation;
 
@@ -9,10 +9,10 @@ public class NPCDadCharacter : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            if (!QuestManager.Instance.hasTalkedToDad)
+            if (!QuestManager.Instance.hasTalkedToSister)
             {
-                QuestManager.Instance.hasTalkedToDad = true;
-                Debug.Log("Du har nu snakket med faren.");
+                QuestManager.Instance.hasTalkedToSister = true;
+                Debug.Log("Du har nu snakket med søsteren.");
             }
 
             ConversationManager.Instance.StartConversation(myConversation);
