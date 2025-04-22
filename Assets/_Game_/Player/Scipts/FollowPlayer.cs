@@ -2,36 +2,33 @@ using UnityEngine;
 
 public class FollowPlayer : MonoBehaviour
 {
-    public Transform player;  // Spilleren som NPC'en skal følge
-    public float followRadius = 3f;  // Afstand hvor NPC'en begynder at følge spilleren
-    public float moveSpeed = 2f;  // Hvor hurtigt NPC'en skal bevæge sig
-    private bool isFollowing = false;  // Tjekker om NPC'en er tæt nok på spilleren for at følge
+    public Transform player; // Spilleren
+    public float followSpeed = 2f; // Hvor hurtigt objektet følger spilleren
+    public float followRadius = 5f; // Radiusen, hvor objektet stopper med at følge
 
-    private void Update()
+    private void Start()
     {
-        // Beregn afstanden mellem NPC og spiller
-        float distanceToPlayer = Vector3.Distance(transform.position, player.position);
-
-        if (distanceToPlayer <= followRadius)
+        // Hvis player ikke er tildelt i Inspector, find spilleren automatisk
+        if (player == null)
         {
-            isFollowing = true;
-        }
-        else
-        {
-            isFollowing = false;
-        }
-
-        // Hvis NPC'en er inden for radiusen, følg spilleren
-        if (isFollowing)
-        {
-            Follow();
+            player = GameObject.FindWithTag("Player").transform; // Sørg for at spilleren har tagget "Player"
         }
     }
 
-    private void Follow()
+    private void Update()
     {
-        // Gør NPC'en til at følge spilleren
-        Vector3 direction = (player.position - transform.position).normalized;  // Beregn retningen mod spilleren
-        transform.position += direction * moveSpeed * Time.deltaTime;  // Flyt NPC'en mod spilleren
+        if (player != null)
+        {
+            // Beregn afstanden mellem objektet og spilleren
+            float distance = Vector3.Distance(transform.position, player.position);
+
+            // Hvis afstanden er større end followRadius, fortsæt med at følge spilleren
+            if (distance > followRadius)
+            {
+                // Bevæge sig mod spilleren
+                Vector3 direction = (player.position - transform.position).normalized;
+                transform.position += direction * followSpeed * Time.deltaTime;
+            }
+        }
     }
 }

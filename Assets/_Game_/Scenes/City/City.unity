@@ -10051,14 +10051,31 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4409288902791062276, guid: dff37be61ce563c40b9e6d866833afb8, type: 3}
+      propertyPath: loop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409288902791062276, guid: dff37be61ce563c40b9e6d866833afb8, type: 3}
+      propertyPath: speed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409288902791062276, guid: dff37be61ce563c40b9e6d866833afb8, type: 3}
+      propertyPath: waitTimeAtEachWaypoint
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6656315004096266194, guid: dff37be61ce563c40b9e6d866833afb8, type: 3}
       propertyPath: m_Name
       value: NPC Pet
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2057816411655160560, guid: dff37be61ce563c40b9e6d866833afb8, type: 3}
+    - {fileID: 4409288902791062276, guid: dff37be61ce563c40b9e6d866833afb8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6656315004096266194, guid: dff37be61ce563c40b9e6d866833afb8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1475307777}
   m_SourcePrefab: {fileID: 100100000, guid: dff37be61ce563c40b9e6d866833afb8, type: 3}
 --- !u!1 &429961620
 GameObject:
@@ -10200,6 +10217,11 @@ Grid:
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
+--- !u!4 &735245504 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4109742937484766163, guid: 99e53cd1977144c4c8643a964d709d5b, type: 3}
+  m_PrefabInstance: {fileID: 1251491356}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &921730201
 GameObject:
   m_ObjectHideFlags: 0
@@ -86409,6 +86431,46 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1463119511 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8393854013878558344, guid: cd2509ff68d594549be5fb10d1eb3fe6, type: 3}
+  m_PrefabInstance: {fileID: 2061934595}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1463119512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463119511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dba0d1211c917145b71987d3bb4d6b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 735245504}
+  followSpeed: 2
+  followRadius: 3
+--- !u!1 &1475307776 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6656315004096266194, guid: dff37be61ce563c40b9e6d866833afb8, type: 3}
+  m_PrefabInstance: {fileID: 330034828}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1475307777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475307776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dba0d1211c917145b71987d3bb4d6b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 735245504}
+  followSpeed: 2
+  followRadius: 3
 --- !u!4 &1524116995 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4129709675852420819, guid: c2e597df4a8002a4fb5fb683ba51a8d6, type: 3}
@@ -89761,14 +89823,31 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8098128410444565898, guid: cd2509ff68d594549be5fb10d1eb3fe6, type: 3}
+      propertyPath: loop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8098128410444565898, guid: cd2509ff68d594549be5fb10d1eb3fe6, type: 3}
+      propertyPath: speed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8098128410444565898, guid: cd2509ff68d594549be5fb10d1eb3fe6, type: 3}
+      propertyPath: waitTimeAtEachWaypoint
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8393854013878558344, guid: cd2509ff68d594549be5fb10d1eb3fe6, type: 3}
       propertyPath: m_Name
       value: NPC Sister
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1144744549477815183, guid: cd2509ff68d594549be5fb10d1eb3fe6, type: 3}
+    - {fileID: 8098128410444565898, guid: cd2509ff68d594549be5fb10d1eb3fe6, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8393854013878558344, guid: cd2509ff68d594549be5fb10d1eb3fe6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1463119512}
   m_SourcePrefab: {fileID: 100100000, guid: cd2509ff68d594549be5fb10d1eb3fe6, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
