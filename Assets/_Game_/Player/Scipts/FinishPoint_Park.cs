@@ -6,26 +6,25 @@ public class FinishPoint_Park : MonoBehaviour
     [Header("Scene Settings")]
     public string sceneToLoad;
 
+    [Header("Progress")]
+    public bool hasTalkedToSister = false;
+
     private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.CompareTag("Player"))
         {
-            // Hvis der findes en CheckpointManager
-            if (CheckpointManager.Instance != null)
+            bool checkpointsOK = CheckpointManager.Instance != null && CheckpointManager.Instance.AllCheckpointsHit();
+
+            if (checkpointsOK && hasTalkedToSister)
             {
-                if (CheckpointManager.Instance.AllCheckpointsHit())
-                {
-                    LoadScene();
-                }
-                else
-                {
-                    Debug.Log("Du mangler at gå gennem nogle checkpoints.");
-                }
+                LoadScene();
             }
             else
             {
-                Debug.LogWarning("Der er ingen CheckpointManager i scenen. Skifter scene alligevel.");
-                LoadScene();
+                if (!checkpointsOK)
+                    Debug.Log("Du mangler at gå gennem nogle checkpoints.");
+                if (!hasTalkedToSister)
+                    Debug.Log("Du har ikke interageret med din søster endnu.");
             }
         }
     }
