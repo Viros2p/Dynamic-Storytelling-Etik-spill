@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/_Game_/Scenes/Kapitel 2 - Shopping/Kapitel 2 - Shopping.unity
+    path: Assets/_Game_/Scenes/Shopping/Kapitel 2 - Shopping.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 0
     path: Assets/_Game_/Scenes/Intro/Hus.unity

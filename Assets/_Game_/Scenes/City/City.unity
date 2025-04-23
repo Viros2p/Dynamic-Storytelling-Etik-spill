@@ -53822,6 +53822,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2826423050591084583, guid: 99e53cd1977144c4c8643a964d709d5b, type: 3}
+      propertyPath: CameraDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2826423050591084583, guid: 99e53cd1977144c4c8643a964d709d5b, type: 3}
+      propertyPath: Composition.HardLimits.Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4109742937484766163, guid: 99e53cd1977144c4c8643a964d709d5b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.2
@@ -53873,6 +53881,10 @@ PrefabInstance:
     - target: {fileID: 6969057722026495158, guid: 99e53cd1977144c4c8643a964d709d5b, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6969057722026495158, guid: 99e53cd1977144c4c8643a964d709d5b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
