@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/_Game_/Scenes/Shopping/Kapitel 2 - Shopping.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 0
     path: Assets/_Game_/Scenes/Intro/Hus.unity
     guid: 8be14e61428f9724691f84cf178e6d29
   - enabled: 0
@@ -26,6 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Game_/Scenes/City/Station.unity
     guid: f704499dfcdb25141a99cbfb40ef1623
+  - enabled: 1
+    path: Assets/_Game_/Scenes/Shopping/Kapitel 2 - Shopping.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
