@@ -1,14 +1,5 @@
 fileFormatVersion: 2
 guid: 28fe614b88daf184a841493ff6bdcd86
-MonoImporter:
-  externalObjects: {}
-  serializedVersion: 2
-  defaultReferences: []
-  executionOrder: 0
-  icon: {instanceID: 0}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
   productId: 168329
@@ -16,3 +7,12 @@ AssetOrigin:
   packageVersion: 1.1.07
   assetPath: Assets/DialogueEditor/Assets/Scripts/UI/ConversationManager.cs
   uploadId: 542877
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 300
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
