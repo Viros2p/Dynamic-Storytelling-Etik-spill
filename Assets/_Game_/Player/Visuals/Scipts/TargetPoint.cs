@@ -4,11 +4,10 @@ public class TargetPoint : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))  // Sørg for din spiller har tag "Player"
+        if (other.CompareTag("Player"))
         {
-            FindFirstObjectByType<ArrowPointer>().GoToNextTarget();
-
-            Destroy(gameObject);  // Hvis du vil fjerne målet når det er ramt
+            CheckpointManager.Instance.HitCheckpoint();
+            Destroy(gameObject); // Hvis du vil fjerne checkpoint efter det er ramt
         }
     }
 }
