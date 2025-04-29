@@ -11220,6 +11220,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6261816815348953516, guid: f8ceda1a0521bde44911a848abb7a304, type: 3}
+      propertyPath: 'objectives.Array.data[0]'
+      value: Snak med mor
+      objectReference: {fileID: 0}
     - target: {fileID: 6908901867923006069, guid: f8ceda1a0521bde44911a848abb7a304, type: 3}
       propertyPath: m_Name
       value: 'HUDParent '
@@ -19738,7 +19742,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1513083849178967870, guid: 53501921a06303d44bd19e25301aa27b, type: 3}
       propertyPath: sceneToLoad
-      value: City
+      value: City 4
       objectReference: {fileID: 0}
     - target: {fileID: 3261267320709479985, guid: 53501921a06303d44bd19e25301aa27b, type: 3}
       propertyPath: m_LocalPosition.x

@@ -17455,6 +17455,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1513083849178967870, guid: 53501921a06303d44bd19e25301aa27b, type: 3}
+      propertyPath: sceneToLoad
+      value: City 12U
+      objectReference: {fileID: 0}
     - target: {fileID: 3261267320709479985, guid: 53501921a06303d44bd19e25301aa27b, type: 3}
       propertyPath: m_LocalScale.y
       value: 12.368878

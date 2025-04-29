@@ -41724,8 +41724,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 790276cb4c52a3348a409827c8c288b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneIfSisterSaved: City
-  sceneIfChildSaved: Hus Level
+  sceneIfSisterSaved: Station 6M
+  sceneIfChildSaved: Station 6U
 --- !u!4 &851427581
 Transform:
   m_ObjectHideFlags: 0
@@ -42028,6 +42028,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6261816815348953516, guid: f8ceda1a0521bde44911a848abb7a304, type: 3}
+      propertyPath: 'objectives.Array.data[0]'
+      value: "Find din s\xF8ster "
+      objectReference: {fileID: 0}
     - target: {fileID: 6908901867923006069, guid: f8ceda1a0521bde44911a848abb7a304, type: 3}
       propertyPath: m_Name
       value: 'HUDParent '

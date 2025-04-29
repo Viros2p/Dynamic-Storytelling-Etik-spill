@@ -51,8 +51,12 @@ EditorBuildSettings:
     guid: dcb8f3a546c458c4c9307d3ab0fc53c1
   - enabled: 1
     path: Assets/_Game_/Scenes/All Game Scene in order, with Dyanim changes/City
-      Scenes/City 9.unity
+      Scenes/City 9M.unity
     guid: 6c6432172769e4a449abbedff9c008de
+  - enabled: 1
+    path: Assets/_Game_/Scenes/All Game Scene in order, with Dyanim changes/City
+      Scenes/City 9U.unity
+    guid: 9e663831979d25045bd117c6c17f7c51
   - enabled: 1
     path: Assets/_Game_/Scenes/All Game Scene in order, with Dyanim changes/Shopping
       Centerr Scenes/ShoppingCenter 10_VS_1.unity
