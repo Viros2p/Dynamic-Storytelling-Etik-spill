@@ -9,9 +9,7 @@ public class CheckpointManager : MonoBehaviour
     [Header("Indtast hvor mange checkpoints der skal rammes")]
     public int totalCheckpoints = 10;
 
-    [Header("Reference til ObjectiveTextManager")]
-    public ObjectiveTextManager objectiveManager;
-
+    [Header("Reference til ArrowPointer (valgfri)")]
     private ArrowPointer arrowPointer;
 
     private void Awake()
@@ -37,12 +35,7 @@ public class CheckpointManager : MonoBehaviour
         if (AllCheckpointsHit())
         {
             Debug.Log("Alle checkpoints er ramt!");
-
-            // Marker objektivet som færdigt
-            if (objectiveManager != null && objectiveManager.objectives.Length > 0)
-            {
-                objectiveManager.objectives[0].isCompleted = true;
-            }
+            // Her kunne man fx give besked til en QuestManager eller noget andet
         }
     }
 

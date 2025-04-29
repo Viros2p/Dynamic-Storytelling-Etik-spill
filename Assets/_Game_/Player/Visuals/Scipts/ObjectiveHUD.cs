@@ -1,77 +1,56 @@
-// ObjectiveTextManager.cs
 using UnityEngine;
 using TMPro;
 
 public class ObjectiveTextManager : MonoBehaviour
 {
-    [Header("Skal systemet være aktivt i denne scene?")]
-    public bool isActive = true;
-
-    [Header("Tekstkomponent der skal opdateres")]
+    [Header("Reference til UI tekst (TextMeshProUGUI)")]
     public TextMeshProUGUI objectiveTextUI;
 
-    [Header("Liste over objectives")]
-    public Objective[] objectives;
+    [Header("Liste over opgaver, der vises én ad gangen")]
+    [TextArea(2, 5)]
+    public string[] objectives;
 
-    [Header("Farve på teksten")]
+    [Header("Startfarve på teksten")]
     public Color textColor = Color.white;
 
-    private int currentIndex = 0;
+    private int currentObjectiveIndex = 0;
 
     void Start()
     {
-        if (!isActive)
-        {
-            gameObject.SetActive(false);
-            return;
-        }
-
         if (objectiveTextUI == null)
         {
-            Debug.LogError("Du mangler at trække en TextMeshProUGUI ind i ObjectiveTextManager.");
+            Debug.LogError("Objective Text UI mangler!");
             return;
         }
 
-        if (objectives.Length > 0)
-        {
-            ShowObjective(currentIndex);
-        }
+        UpdateObjective();
     }
 
-    void Update()
+    public void UpdateObjective()
     {
-        if (!isActive || objectives.Length == 0) return;
-
-        if (currentIndex < objectives.Length && objectives[currentIndex].isCompleted)
+        if (objectives.Length > 0 && currentObjectiveIndex < objectives.Length)
         {
-            currentIndex++;
-            if (currentIndex < objectives.Length)
-            {
-                ShowObjective(currentIndex);
-            }
-            else
-            {
-                objectiveTextUI.text = "Alle mål er fuldført!";
-            }
-        }
-    }
-
-    void ShowObjective(int index)
-    {
-        if (objectiveTextUI != null && index < objectives.Length)
-        {
-            objectiveTextUI.text = objectives[index].text;
+            objectiveTextUI.text = objectives[currentObjectiveIndex];
             objectiveTextUI.color = textColor;
         }
+        else
+        {
+            objectiveTextUI.text = ""; // Ingen flere objectives
+        }
     }
 
-    public void ResetObjectives()
+    public void NextObjective()
     {
-        foreach (var obj in objectives)
+        currentObjectiveIndex++;
+        UpdateObjective();
+    }
+
+    public void SetTextColor(Color newColor)
+    {
+        textColor = newColor;
+        if (objectiveTextUI != null)
         {
-            obj.isCompleted = false;
+            objectiveTextUI.color = newColor;
         }
-        currentIndex = 0;
-        ShowObjective(currentIndex);
     }
 }
