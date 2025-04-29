@@ -9,7 +9,10 @@ public class CheckpointManager : MonoBehaviour
     [Header("Indtast hvor mange checkpoints der skal rammes")]
     public int totalCheckpoints = 10;
 
-    private ArrowPointer arrowPointer; // Reference til pilen
+    [Header("Reference til ObjectiveTextManager")]
+    public ObjectiveTextManager objectiveManager;
+
+    private ArrowPointer arrowPointer;
 
     private void Awake()
     {
@@ -18,7 +21,6 @@ public class CheckpointManager : MonoBehaviour
         else
             Destroy(gameObject);
 
-        // Find pilen i scenen
         arrowPointer = FindFirstObjectByType<ArrowPointer>();
     }
 
@@ -27,10 +29,20 @@ public class CheckpointManager : MonoBehaviour
         checkpointsHit++;
         Debug.Log("Checkpoint ramt: " + checkpointsHit + "/" + totalCheckpoints);
 
-        // Fortæl pilen at vi skal videre
         if (arrowPointer != null)
         {
             arrowPointer.GoToNextTarget();
+        }
+
+        if (AllCheckpointsHit())
+        {
+            Debug.Log("Alle checkpoints er ramt!");
+
+            // Marker objektivet som færdigt
+            if (objectiveManager != null && objectiveManager.objectives.Length > 0)
+            {
+                objectiveManager.objectives[0].isCompleted = true;
+            }
         }
     }
 
