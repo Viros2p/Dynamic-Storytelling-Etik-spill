@@ -5,12 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/_Game_/Scenes/Intro/Hus.unity
-    guid: 8be14e61428f9724691f84cf178e6d29
-  - enabled: 0
-    path: Assets/_Game_/Scenes/City/City Armaan.unity
-    guid: 433916ef6a14faa42b7e22ae8e323014
   - enabled: 1
     path: Assets/_Game_/Scenes/All Game Scene in order, with Dyanim changes/House
       Scenes/House 1.unity
@@ -24,13 +18,89 @@ EditorBuildSettings:
       Scenes/House 3.unity
     guid: 50a4195ae9ac16a4b97117ec7b01f0b9
   - enabled: 1
+    path: Assets/_Game_/Scenes/All Game Scene in order, with Dyanim changes/City
+      Scenes/City 4.unity
+    guid: a047134d67fbe864d9003486b9da805e
+  - enabled: 1
     path: Assets/_Game_/Scenes/All Game Scene in order, with Dyanim changes/Station
       Scenes/Station 5.unity
     guid: f704499dfcdb25141a99cbfb40ef1623
   - enabled: 1
+    path: Assets/_Game_/Scenes/All Game Scene in order, with Dyanim changes/Station
+      Scenes/Station 6M.unity
+    guid: 344a4167adad8424991097965b1fd99c
+  - enabled: 1
+    path: Assets/_Game_/Scenes/All Game Scene in order, with Dyanim changes/Station
+      Scenes/Station 6U.unity
+    guid: 0ae1ac8d043983a4ab151e7d32f4eb44
+  - enabled: 1
+    path: Assets/_Game_/Scenes/All Game Scene in order, with Dyanim changes/City
+      Scenes/City 7M.unity
+    guid: 2ad6d6141d197f041b45af0432476441
+  - enabled: 1
+    path: Assets/_Game_/Scenes/All Game Scene in order, with Dyanim changes/City
+      Scenes/City 7U.unity
+    guid: b97baeea16cfd1448a1d9bf7ecee252b
+  - enabled: 1
+    path: Assets/_Game_/Scenes/All Game Scene in order, with Dyanim changes/House
+      Scenes/House 8M.unity
+    guid: fa818bbbfae54fd4383cd33c2c4c1d15
+  - enabled: 1
+    path: Assets/_Game_/Scenes/All Game Scene in order, with Dyanim changes/House
+      Scenes/House 8U.unity
+    guid: dcb8f3a546c458c4c9307d3ab0fc53c1
+  - enabled: 1
+    path: Assets/_Game_/Scenes/All Game Scene in order, with Dyanim changes/City
+      Scenes/City 9.unity
+    guid: 6c6432172769e4a449abbedff9c008de
+  - enabled: 1
+    path: Assets/_Game_/Scenes/All Game Scene in order, with Dyanim changes/Shopping
+      Centerr Scenes/ShoppingCenter 10_VS_1.unity
+    guid: 569fe1e8dec6aa041805b23304dc06df
+  - enabled: 1
     path: Assets/_Game_/Scenes/All Game Scene in order, with Dyanim changes/Shopping
       Centerr Scenes/ShoppingCenter 10_VS_5.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/_Game_/Scenes/All Game Scene in order, with Dyanim changes/Shopping
+      Centerr Scenes/ShoppingCenter 11U_VS_1.unity
+    guid: 08fe30cca963e36439e082189a4d72a3
+  - enabled: 1
+    path: Assets/_Game_/Scenes/All Game Scene in order, with Dyanim changes/Shopping
+      Centerr Scenes/ShoppingCenter 11M_VS_5.unity
+    guid: 9f25cf068e8890a49ad6670f7998bac8
+  - enabled: 1
+    path: Assets/_Game_/Scenes/All Game Scene in order, with Dyanim changes/Shopping
+      Centerr Scenes/ShoppingCenter 11U_VS_5.unity
+    guid: a8281bb1932d3ba40b2bd1c1648a0197
+  - enabled: 1
+    path: Assets/_Game_/Scenes/All Game Scene in order, with Dyanim changes/City
+      Scenes/City 12M.unity
+    guid: 184d5422da3167f4c9f24a7d68ef966b
+  - enabled: 1
+    path: Assets/_Game_/Scenes/All Game Scene in order, with Dyanim changes/City
+      Scenes/City 12U.unity
+    guid: 905ea1cac583d97418e00425dc0816a9
+  - enabled: 1
+    path: Assets/_Game_/Scenes/All Game Scene in order, with Dyanim changes/House
+      Scenes/House 13 Ms Um.unity
+    guid: 4cde86c536c06734f926e5c16d40ae67
+  - enabled: 1
+    path: Assets/_Game_/Scenes/All Game Scene in order, with Dyanim changes/House
+      Scenes/House 13 Us Um.unity
+    guid: 20c9fd5f471ee5443b2a35084e7bd412
+  - enabled: 1
+    path: Assets/_Game_/Scenes/All Game Scene in order, with Dyanim changes/House
+      Scenes/House 13MsMm.unity
+    guid: ffa4f5d8f80532249a471600f52e0bcc
+  - enabled: 1
+    path: Assets/_Game_/Scenes/All Game Scene in order, with Dyanim changes/House
+      Scenes/House 13UsMm.unity
+    guid: 2c2375d68fc63504699d483804dd56de
+  - enabled: 1
+    path: Assets/_Game_/Scenes/All Game Scene in order, with Dyanim changes/House
+      Scenes/House 14 Last.unity
+    guid: b81aa6997cb4bb442914dff541b53159
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
