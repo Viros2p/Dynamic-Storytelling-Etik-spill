@@ -17389,7 +17389,7 @@ Camera:
   far clip plane: 1000
   field of view: 5
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -17511,10 +17511,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Exit House
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1513083849178967870, guid: 53501921a06303d44bd19e25301aa27b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7943119829611470821, guid: 53501921a06303d44bd19e25301aa27b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1685077736}
   m_SourcePrefab: {fileID: 100100000, guid: 53501921a06303d44bd19e25301aa27b, type: 3}
 --- !u!1 &1275404447
 GameObject:
@@ -22124,6 +22128,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1685077731 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7943119829611470821, guid: 53501921a06303d44bd19e25301aa27b, type: 3}
+  m_PrefabInstance: {fileID: 1233356846}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1685077736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685077731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71165dcf589c8304fbf46f4ca212eb91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: City 12 Ms Um
 --- !u!1001 &1688374008
 PrefabInstance:
   m_ObjectHideFlags: 0
