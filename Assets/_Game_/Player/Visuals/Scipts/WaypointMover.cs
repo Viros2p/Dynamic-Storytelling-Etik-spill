@@ -30,7 +30,7 @@ public class WaypointMover : MonoBehaviour
 
     void Update()
     {
-        // Hvis de ikke må bevæge os eller venter, gør vi ingenting
+        // Hvis de ikke må bevæge os eller venter, gør de ingenting
         if (!isMoving || IsWaiting)
             return;
 
