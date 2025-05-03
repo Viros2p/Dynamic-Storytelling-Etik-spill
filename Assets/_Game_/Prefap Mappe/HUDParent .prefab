@@ -44,13 +44,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8205094064f1f6a459cc947e92cde5a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isActive: 1
   objectiveTextUI: {fileID: 4089907219652552387}
   objectives:
-  - text: 
-    isCompleted: 0
-  - text: 
-    isCompleted: 0
+  - 
+  - 
   textColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &4543658925614799928
 GameObject:
@@ -151,8 +148,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 4
-  m_VerticalAlignment: 512
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 1024
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0

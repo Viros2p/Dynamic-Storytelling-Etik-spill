@@ -16029,7 +16029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6723fd965fb196645ab1140aa479290c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myConversation: {fileID: 0}
+  myConversation: {fileID: 493503582}
   trainPatroller: {fileID: 1189340127}
 --- !u!4 &1527522823
 Transform:
