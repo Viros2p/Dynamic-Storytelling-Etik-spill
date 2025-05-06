@@ -8,10 +8,10 @@ public class FollowPlayer : MonoBehaviour
 
     private void Start()
     {
-        // Hvis player ikke er tildelt i Inspector, find spilleren automatisk
+        // Hvis player ikke er tildelt i Inspector, find spilleren automatisk, Unødvendigt ngl. 
         if (player == null)
         {
-            player = GameObject.FindWithTag("Player").transform; // Sørg for at spilleren har tagget "Player"
+            player = GameObject.FindWithTag("Player").transform;  
         }
     }
 
@@ -22,7 +22,7 @@ public class FollowPlayer : MonoBehaviour
             // Beregn afstanden mellem objektet og spilleren
             float distance = Vector3.Distance(transform.position, player.position);
 
-            // Hvis afstanden er større end followRadius, fortsæt med at følge spilleren
+            // Hvis afstanden er større end Radius, fortsæt med at følge spilleren
             if (distance > followRadius)
             {
                 // Bevæge sig mod spilleren

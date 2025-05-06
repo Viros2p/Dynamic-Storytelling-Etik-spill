@@ -10,7 +10,7 @@ public class Checkpoint : MonoBehaviour
         {
             hasBeenHit = true;
             CheckpointManager.Instance.HitCheckpoint();
-            gameObject.SetActive(false); // Hvis du vil "fjerne" checkpointet bagefter
+            gameObject.SetActive(false); // Deaktivere checkpointet bagefter
         }
     }
 }

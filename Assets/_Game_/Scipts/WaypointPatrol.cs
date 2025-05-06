@@ -59,7 +59,7 @@ public class NPCPatrol : MonoBehaviour
     {
         isWaiting = true;
 
-        //Debug.Log("🛑 Ankommet ved: " + waypoints[currentIndex].name + " | Venter i " + waitTimeAtEachWaypoint + " sek.");
+        //Debug.Log("Ankommet ved: " + waypoints[currentIndex].name + " | Venter i " + waitTimeAtEachWaypoint + " sek.");
 
         yield return new WaitForSeconds(waitTimeAtEachWaypoint);
 
@@ -70,16 +70,16 @@ public class NPCPatrol : MonoBehaviour
             if (loop)
             {
                 currentIndex = 0; // Start forfra
-               // Debug.Log("🔁 Looping tilbage til første waypoint.");
+               // Debug.Log("Looping tilbage til første waypoint.");
             }
             else
             {
-               // Debug.Log("✅ Sidste waypoint nået – ingen loop.");
+               // Debug.Log("Sidste waypoint nået – ingen loop.");
                 yield break;
             }
         }
 
-        //Debug.Log("➡️ Næste destination: " + waypoints[currentIndex].name);
+        //Debug.Log("Næste destination: " + waypoints[currentIndex].name);
         isWaiting = false;
     }
 }

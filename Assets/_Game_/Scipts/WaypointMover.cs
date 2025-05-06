@@ -8,7 +8,7 @@ public class WaypointMover : MonoBehaviour
     public float moveSpeed = 2f;
     public float WaitTime = 2f;
     public bool LoopWaypoint = true;
-    public bool isMoving = true; // Dette kan tændes/slukkes udefra
+    public bool isMoving = true; // Dette kan tændes/slukkes udefra En smart løsning til at introducere toget og andre onde.
     #endregion
 
     #region Private Variables

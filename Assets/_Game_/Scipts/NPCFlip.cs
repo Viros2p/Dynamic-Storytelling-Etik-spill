@@ -1,4 +1,4 @@
-// SpriteFlipper.cs
+// SpriteFlipper.cs. Dette Script bruges ikke rigtigt til noget. billig måde at få lidt liv i NPC'erne. 
 using UnityEngine;
 
 public class SpriteFlipper : MonoBehaviour

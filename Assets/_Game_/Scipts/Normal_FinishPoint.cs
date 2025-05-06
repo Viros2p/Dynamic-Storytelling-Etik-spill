@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+//Helt basale Finishpoint script. 
 public class NormalFinishPoint : MonoBehaviour
 {
     [Header("Scene Settings")]

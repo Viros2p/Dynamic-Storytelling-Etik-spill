@@ -4,7 +4,7 @@ using UnityEngine;
 public class MomCityConversationScript : MonoBehaviour
 {
     public NPCConversation myConversation;
-    private bool hasTalkedToMom = false; // Lokal variabel
+    private bool hasTalkedToMom = false; // Lokal variabel, det smarte er at det kan sættes true i Inspector 
 
     private void OnMouseOver()
     {

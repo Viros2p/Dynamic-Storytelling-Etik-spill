@@ -4,7 +4,7 @@ using DialogueEditor;
 public class DilemmaTrigger : MonoBehaviour
 {
     public NPCConversation myConversation;
-    public WaypointMover trainPatroller; // Rigtig klasse-navn her!
+    public WaypointMover trainPatroller; // Det bruges til meget andet end bare Toget, så lidt forkert navn
 
     private bool triggered = false;
 
@@ -25,7 +25,7 @@ public class DilemmaTrigger : MonoBehaviour
 
             if (trainPatroller != null)
             {
-                trainPatroller.isMoving = true; // Aktivér toget
+                trainPatroller.isMoving = true; // Aktiver "toget"
                 Debug.Log("Toget begynder at patruljere!");
             }
             else

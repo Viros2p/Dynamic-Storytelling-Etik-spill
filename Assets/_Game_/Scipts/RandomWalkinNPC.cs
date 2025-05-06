@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class RandomWalkinNPC : MonoBehaviour
 {
+    //Bliver ikke brugt, kunne bruges til detaljer som dyr og børn der leger. 
     [SerializeField] float speed;
     [SerializeField] float range;
     [SerializeField] float maxDistance;

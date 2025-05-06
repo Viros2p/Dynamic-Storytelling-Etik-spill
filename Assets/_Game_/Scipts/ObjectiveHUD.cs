@@ -6,7 +6,7 @@ public class ObjectiveTextManager : MonoBehaviour
     [Header("Reference til UI tekst (TextMeshProUGUI)")]
     public TextMeshProUGUI objectiveTextUI;
 
-    [Header("Liste over opgaver, der vises én ad gangen")]
+    [Header("Liste over opgaver, der vises en ad gangen")]
     [TextArea(2, 5)]
     public string[] objectives;
 

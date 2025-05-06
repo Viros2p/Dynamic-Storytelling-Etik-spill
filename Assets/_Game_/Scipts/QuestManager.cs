@@ -13,7 +13,7 @@ public class QuestManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // Hvis du skal gemme den mellem scener
+            DontDestroyOnLoad(gameObject); //  gemme mellem scener
         }
         else
         {

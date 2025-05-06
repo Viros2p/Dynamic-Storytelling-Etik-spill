@@ -11,7 +11,7 @@ public class FinishPointBfShoppingCenter : MonoBehaviour
     private void Start()
     {
         // Finder morens script i scenen
-        momConversationScript = FindObjectOfType<MomCityConversationScript>();
+        momConversationScript = FindObjectOfType<MomCityConversationScript>(); // dette er åbenbart ikke nødvedigt længere, i denne opdatering men jeg ved ikke hvad der ellers skulle stå
     }
 
     private void OnTriggerEnter2D(Collider2D col)

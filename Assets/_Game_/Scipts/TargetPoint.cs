@@ -7,7 +7,7 @@ public class TargetPoint : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             CheckpointManager.Instance.HitCheckpoint();
-            Destroy(gameObject); // Hvis du vil fjerne checkpoint efter det er ramt
+            Destroy(gameObject); //´Fjerne checkpoint efter det er ramt
         }
     }
 }

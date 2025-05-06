@@ -8,7 +8,7 @@ public class QuestManagerTrainStation : MonoBehaviour
     public bool handleChoice = false;         // Denne sættes til true, hvis spilleren trækker i håndtaget
     public bool didNotPullLever = false;      // Denne sættes til true, hvis spilleren IKKE trak i håndtaget
     public bool choiceTaken = false;          // Denne sættes til true, når et valg er blevet taget
-
+                                              // Dette Script genbruges over flere scener, så det mere ikke træk = dræb famillie. træk=red famillie
     private void Awake()
     {
         if (Instance == null)

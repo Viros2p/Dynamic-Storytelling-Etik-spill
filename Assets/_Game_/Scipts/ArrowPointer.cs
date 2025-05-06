@@ -10,7 +10,7 @@ public class ArrowPointer : MonoBehaviour
 
     void Start()
     {
-        // Fyld targets-listen automatisk med alle children
+        // Fyld targets listen automatisk med alle children
         foreach (Transform child in checkpointsParent)
         {
             targets.Add(child);
@@ -36,7 +36,7 @@ public class ArrowPointer : MonoBehaviour
         else
         {
             Debug.Log("Alle mål nået!");
-            arrow.gameObject.SetActive(false); // Deaktiver pilen når alle mål er nået
+            arrow.gameObject.SetActive(false); // dette deaktivere
         }
     }
 }

@@ -9,7 +9,7 @@ public class CheckpointManager : MonoBehaviour
     [Header("Indtast hvor mange checkpoints der skal rammes")]
     public int totalCheckpoints = 10;
 
-    [Header("Reference til ArrowPointer (valgfri)")]
+    [Header("Reference til ArrowPointer")] //Det er ikke et krav 
     private ArrowPointer arrowPointer;
 
     private void Awake()
@@ -35,7 +35,7 @@ public class CheckpointManager : MonoBehaviour
         if (AllCheckpointsHit())
         {
             Debug.Log("Alle checkpoints er ramt!");
-            // Her kunne man fx give besked til en QuestManager eller noget andet
+            // Her kan man  give besked til  QuestManager
         }
     }
 
