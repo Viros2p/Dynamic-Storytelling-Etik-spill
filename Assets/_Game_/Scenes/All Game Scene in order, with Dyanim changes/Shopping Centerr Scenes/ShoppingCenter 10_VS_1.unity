@@ -8791,9 +8791,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 27
-  json: "{\"Options\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-0.199966431,\"yPos\":197.399872},\"ID\":13,\"ParamActions\":[{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"HandleChoice\",\"Value\":true}],\"TMPFontGUID\":null,\"Text\":\"Du
-    lader din mor d\xF8r, p\xE5 bekostning af aktivt dr\xE6be \xE9n person\",\"parentUIDs\":[23],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":329.999817,\"yPos\":195.200043},\"ID\":15,\"ParamActions\":[{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"HandleChoice\",\"Value\":true}],\"TMPFontGUID\":null,\"Text\":\"Du
-    aktivt v\xE6lger at ofre \xE9t menneske for at redde din mor\",\"parentUIDs\":[23],\"SpeechUID\":-1}],\"Parameters\":[{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"HandleChoice\",\"BoolValue\":true},{\"__type\":\"EditableIntParameter:#DialogueEditor\",\"ParameterName\":\"Test\",\"IntValue\":1}],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":25}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":147.6,\"yPos\":-541.999756},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Du
+  json: "{\"Options\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":5.00001526,\"yPos\":836.5993},\"ID\":13,\"ParamActions\":[{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"HandleChoice\",\"Value\":true}],\"TMPFontGUID\":null,\"Text\":\"Du
+    lader din mor d\xF8r, p\xE5 bekostning af aktivt dr\xE6be \xE9n person\",\"parentUIDs\":[23],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":335.1998,\"yPos\":834.3996},\"ID\":15,\"ParamActions\":[{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"HandleChoice\",\"Value\":true}],\"TMPFontGUID\":null,\"Text\":\"Du
+    aktivt v\xE6lger at ofre \xE9t menneske for at redde din mor\",\"parentUIDs\":[23],\"SpeechUID\":-1}],\"Parameters\":[{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"HandleChoice\",\"BoolValue\":true},{\"__type\":\"EditableIntParameter:#DialogueEditor\",\"ParameterName\":\"Test\",\"IntValue\":1}],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":25}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":152.799988,\"yPos\":97.20006},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Du
     ved... jeg er s\xE5 tr\xE6t af det hele. Jeg har intet at leve for. Jeg har et
     v\xE5ben, og jeg er klar til at bruge det. Jeg har mistet alt, og nu vil jeg
     have h\xE6vn. Jeg kunne ikke v\xE6re mindre interesseret i, hvad der sker med
@@ -8803,18 +8803,18 @@ MonoBehaviour:
     hvis jeg siger, at det er et sp\xF8rgsm\xE5l om, hvad du vil g\xF8re for at overleve?
     Jeg kan dr\xE6be hende lige her og nu. Eller du kan tage ansvar for at stoppe
     mig. Men du har kun \xE9n chance. En. Du kan redde hende. Eller du kan give slip
-    p\xE5 hende... for din egen skyld.\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"R\xF8ver\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":19}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":147.35,\"yPos\":-298.000427},\"ID\":18,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Du
+    p\xE5 hende... for din egen skyld.\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"R\xF8ver\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":19}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":152.549988,\"yPos\":341.19928},\"ID\":18,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Du
     kan v\xE6lge at redde din mor. Men det betyder, at hende her m\xE5 d\xF8. Du
     ved, hvad det betyder... Du vil aktivt ofre et liv for redde din mor. Men hvis
-    du v\xE6lger at redde hende, s\xE5 er det din mor, der m\xE5 betale prisen.\\\"\",\"parentUIDs\":[25],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"R\xF8ver\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":147.35,\"yPos\":-198.000671},\"ID\":19,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Jeg...
-    jeg kan ikke v\xE6lge! Jeg kan ikke bare...\",\"parentUIDs\":[18],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Dig\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":21}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":154.35,\"yPos\":-95.00042},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Du
+    du v\xE6lger at redde hende, s\xE5 er det din mor, der m\xE5 betale prisen.\\\"\",\"parentUIDs\":[25],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"R\xF8ver\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":152.549988,\"yPos\":441.199158},\"ID\":19,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Jeg...
+    jeg kan ikke v\xE6lge! Jeg kan ikke bare...\",\"parentUIDs\":[18],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Dig\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":21}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":159.549988,\"yPos\":544.199158},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Du
     skal v\xE6lge! Red din mor, og du aktivt ofre en. Red en, og din mor... din mor
     d\xF8r. Tiden tikker, og jeg vil have et valg. Jeg har ikke hele dagen. Du tr\xE6ffer
-    beslutningen. S\xE5 hvad bliver det?\",\"parentUIDs\":[19],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"R\xF8ver\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":23}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":152.35,\"yPos\":-1.00031281},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Jeg...
+    beslutningen. S\xE5 hvad bliver det?\",\"parentUIDs\":[19],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"R\xF8ver\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":23}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":157.549988,\"yPos\":638.199036},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Jeg...
     jeg kan ikke v\xE6lge! Jeg kan ikke g\xF8re det! Men hvis jeg redder min mor...
-    s\xE5 aktivt dr\xE6ber... jeg jo en fremmede!\",\"parentUIDs\":[20],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Dig\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":163.35,\"yPos\":91.99982},\"ID\":23,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Du
+    s\xE5 aktivt dr\xE6ber... jeg jo en fremmede!\",\"parentUIDs\":[20],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Dig\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":168.549988,\"yPos\":731.1993},\"ID\":23,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Du
     skal v\xE6lge nu. Din mors liv eller hende her. Du kan ikke begge dele. Hvad
-    bliver det? Tr\xE6f dit valg!!!\",\"parentUIDs\":[21],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"R\xF8ver\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":18}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":148.35,\"yPos\":-392},\"ID\":25,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Jeg
+    bliver det? Tr\xE6f dit valg!!!\",\"parentUIDs\":[21],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"R\xF8ver\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":18}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":153.549988,\"yPos\":247.199844},\"ID\":25,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Jeg
     skal v\xE6re \xE6rlig med dig. Du har et valg, og du har ikke meget tid til at
     tr\xE6ffe det. Din mor st\xE5r her, lige foran mig. Jeg har \xE9t andet menneske
     bag dig, men kun \xE9n af dem kan f\xE5 lov at g\xE5 fri.\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"R\xF8ver\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
@@ -8836,19 +8836,7 @@ MonoBehaviour:
   EndConversationFont: {fileID: 0}
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1598161917}
-        m_TargetAssemblyTypeName: QuestManagerTrainStation, Assembly-CSharp
-        m_MethodName: HandleChoice
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!4 &813395955
 Transform:
   m_ObjectHideFlags: 0
